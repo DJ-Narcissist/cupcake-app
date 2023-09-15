@@ -1,6 +1,6 @@
 """Flask app for Cupcakes"""
 from flask import Flask, render_template, redirect, request, url_for
-from models import Cupcake, db, connect_db
+from models import Cupcake, db
 
 app = Flask(__name__)
 
